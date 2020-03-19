@@ -51,5 +51,7 @@ int main() {
 			printf("Phan giai ten mien thanh cong.\n");
 			printf("Dia chi IP: %s", inet_ntoa(addr.sin_addr));
 		}
+		else{
+			printf("Phan giai ten mien khong thanh cong.\n");
 	}
 }
